@@ -42,13 +42,20 @@ h1 {
   width: 50%;
   color: #ffffff;
 }
-.half-width img {
-  width: 556px;
-  height: 438px;
-}
+
 .flexible-container {
   display: flex;
   margin: 50px;
   padding: 50px;
   justify-content: space-evenly;
+}
+.box img {
+  width: 556px;
+  height: 438px;
+  transition: width 2s, height 2s, transform 2s;
+}
+.box:hover {
+  width: 650px;
+  height: 600px;
+  transform: rotate(60deg);
 }
