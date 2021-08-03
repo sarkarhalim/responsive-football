@@ -2,7 +2,7 @@
  Top Banner style .................... */
 .container {
   background-color: rgb(40, 7, 189);
-  height: 700px;
+  height: 800px;
 }
 
 nav {
@@ -45,21 +45,21 @@ h1 {
 
 .flexible-container {
   display: flex;
-  position: absolute;
-  margin-left: 450px;
-  padding: 50px;
-  justify-content: center;
-  justify-items: center;
+  margin-left: 500px;
+
+  justify-content: space-between;
 }
 .box img {
   width: 556px;
   height: 438px;
-  transition: width 2s, height 2s, transform 2s;
+  margin-right: 350px;
+  padding-top: 10%;
+  transition: width 1s, height 1s, transform 1s;
 }
 .box:hover {
   width: 650px;
   height: 600px;
-  transform: rotate(60deg);
+  transform: rotate(45deg);
 }
 
 /* Players gallery styles  */
@@ -94,4 +94,29 @@ h1 {
   grid-row-gap: 40px;
   justify-content: center;
   justify-items: center;
+}
+
+/* highlights section styles ........
+.......................... */
+.media-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+#media-highlights {
+  font-family: "Poppins", sans-serif;
+  font-size: 54px;
+  font-weight: 700px;
+  width: 75%;
+  color: black;
+}
+.half-width {
+  width: 570px;
+  height: 350px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+}
+.highlights {
+  background-color: gray;
+  margin-top: 60px;
 }
