@@ -120,3 +120,23 @@ h1 {
   background-color: gray;
   margin-top: 60px;
 }
+
+/* Footer section styles ....
+.................... */
+.fireball img {
+  width: 462px;
+  height: 110px;
+  margin-top: 80px;
+}
+.icon img {
+  width: 32px;
+  height: 32px;
+}
+p {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+}
+.footer-container {
+  text-align: center;
+  margin-top: 80px;
+}
