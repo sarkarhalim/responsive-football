@@ -45,9 +45,11 @@ h1 {
 
 .flexible-container {
   display: flex;
-  margin: 50px;
+  position: absolute;
+  margin-left: 450px;
   padding: 50px;
-  justify-content: space-evenly;
+  justify-content: center;
+  justify-items: center;
 }
 .box img {
   width: 556px;
@@ -58,4 +60,38 @@ h1 {
   width: 650px;
   height: 600px;
   transform: rotate(60deg);
+}
+
+/* Players gallery styles  */
+
+.player {
+  border: 2px solid gray;
+  width: 330px;
+  height: 475;
+  border-radius: 10px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin-top: 40px;
+  box-shadow: 10px 10px 10px gray;
+}
+.player h2 {
+  font-size: 28px;
+}
+.player p {
+  font-size: 16px;
+}
+
+.player img {
+  width: 300px;
+  height: 256px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 330px 330px 330px 330px;
+  grid-gap: 40px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  justify-items: center;
 }
